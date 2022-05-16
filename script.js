@@ -3,19 +3,19 @@
   /* An array of objects. */
   const games = [
       {
-          name: "Snake Game",
-          description:"Snake game descripton",
-          popuptext: "Play Snakegame now!",
+          name: "Crossy Road",
+          description: "Chicken cross road, chicken die",
+          popuptext: "play Cross Road now!",
           thumbnail:"snake",
+          url: "https://cuddlybunion341.github.io/crossy-road-clone/public"
+      },
+      {
+          name:"tictactoe",
+          description: "Do you want to play tictactoe",
+          popuptext: "Play tictactoe now!",
+          thumbnail: "snake",
           url: ""
-        },
-        {
-            name: "Crossy Road",
-            description: "Chicken cross road, chicken die",
-            popuptext: "haha funny dead chicken",
-            thumbnail:"snake",
-            url: "https://cuddlybunion341.github.io/crossy-road-clone/public"
-        },
+      },
       {
         name: "Color Game",
         description: "Do you want to guess a color based on the rgb notation",
@@ -24,28 +24,28 @@
         url: ""
     },
     {
-        name:"tictactoe",
-        description: "Do you want to play tictactoe",
-        popuptext: "Play tictactoe now!",
-        thumbnail: "snake",
-        url: ""
-    },
-    {
-        name: "Spiel 1",
+        name: "PixelArt",
         description: "Do you want to guess a color based on the rgb notation",
         popuptext: "Play Spiel 1 Now!",
         thumbnail:"snake",
         url: ""
     },
+      {
+          name: "Snake Game",
+          description:"Snake game descripton",
+          popuptext: "Play Snakegame now!",
+          thumbnail:"snake",
+          url: ""
+        },
     {
-        name: "Spiel 2",
+        name: "Flappybird",
         description: "Do you want to guess a color based on the rgb notation",
         popuptext: "Play Spiel 2 Now!",
         thumbnail:"snake",
         url: ""
     },
     {
-        name: "Spiel 3",
+        name: "Random Number",
         description: "Do you want to guess a color based on the rgb notation",
         popuptext: "Play Spiel 3 Now!",
         thumbnail:"snake",
