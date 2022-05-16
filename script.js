@@ -20,42 +20,42 @@
         name: "Color Game",
         description: "Do you want to guess a color based on the rgb notation",
         popuptext: "Play Colorgame Now!",
-        thumbnail:"colorgame",
+        thumbnail:"snake",
         url: ""
     },
     {
         name:"tictactoe",
         description: "Do you want to play tictactoe",
         popuptext: "Play tictactoe now!",
-        thumbnail: "none",
+        thumbnail: "snake",
         url: ""
     },
     {
         name: "Spiel 1",
         description: "Do you want to guess a color based on the rgb notation",
         popuptext: "Play Spiel 1 Now!",
-        thumbnail:"",
+        thumbnail:"snake",
         url: ""
     },
     {
         name: "Spiel 2",
         description: "Do you want to guess a color based on the rgb notation",
         popuptext: "Play Spiel 2 Now!",
-        thumbnail:"",
+        thumbnail:"snake",
         url: ""
     },
     {
         name: "Spiel 3",
         description: "Do you want to guess a color based on the rgb notation",
         popuptext: "Play Spiel 3 Now!",
-        thumbnail:"",
+        thumbnail:"snake",
         url: ""
     },
     {
         name: "Spiel 4",
         description: "Do you want to guess a color based on the rgb notation",
         popuptext: "Play Spiel 4 Now!",
-        thumbnail:"",
+        thumbnail:"snake",
         url: ""
     },
    
