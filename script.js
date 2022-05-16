@@ -13,7 +13,7 @@
             name: "Crossy Road",
             description: "Chicken cross road, chicken die",
             popuptext: "haha funny dead chicken",
-            thumbnail:"none",
+            thumbnail:"snake",
             url: "https://cuddlybunion341.github.io/crossy-road-clone/public"
         },
       {
