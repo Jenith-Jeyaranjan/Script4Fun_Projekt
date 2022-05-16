@@ -3,7 +3,7 @@
   /* An array of objects. */
   const games = [
       {
-          name: "Crossy Road",
+          name: "Crossy Road von Daniel (Test)",
           description: "Chicken cross road, chicken die",
           popuptext: "play Cross Road now!",
           thumbnail:"snake",
@@ -11,7 +11,7 @@
       },
       {
           name:"tictactoe",
-          description: "Do you want to play tictactoe",
+          description: "Do you want to play tictactoe?",
           popuptext: "Play tictactoe now!",
           thumbnail: "snake",
           url: ""
@@ -25,35 +25,35 @@
     },
     {
         name: "PixelArt",
-        description: "Do you want to guess a color based on the rgb notation",
-        popuptext: "Play Spiel 1 Now!",
+        description: "Do you want to draw with Pixels?",
+        popuptext: "Play PixelArt Now!",
         thumbnail:"snake",
         url: ""
     },
       {
           name: "Snake Game",
-          description:"Snake game descripton",
+          description:"Do you want to play Snake Game?",
           popuptext: "Play Snakegame now!",
           thumbnail:"snake",
           url: ""
         },
     {
         name: "Flappybird",
-        description: "Do you want to guess a color based on the rgb notation",
-        popuptext: "Play Spiel 2 Now!",
+        description: "Do you want to play Flappybird?",
+        popuptext: "Play Flappybird Now!",
         thumbnail:"snake",
         url: ""
     },
     {
         name: "Random Number",
-        description: "Do you want to guess a color based on the rgb notation",
-        popuptext: "Play Spiel 3 Now!",
+        description: "Do you want to guess a random Number",
+        popuptext: "Play Random Number Now!",
         thumbnail:"snake",
         url: ""
     },
     {
         name: "Spiel 4",
-        description: "Do you want to guess a color based on the rgb notation",
+        description: "Do you want to play Spiel 4?",
         popuptext: "Play Spiel 4 Now!",
         thumbnail:"snake",
         url: ""
