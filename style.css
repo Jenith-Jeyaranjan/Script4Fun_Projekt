@@ -1,13 +1,4 @@
-/*Natigationsleiste*/
-body {
-  font-family: Arial;
-
-}
-
-* {
-  box-sizing: border-box;
-}
-
+/* navigation bar. */
 form.example input[type=text] {
   padding: 12px;
   font-size: 17px;
@@ -17,33 +8,8 @@ form.example input[type=text] {
   background: #f1f1f1;
   float: right;
   max-width:300px
-
 }
 
-form.example button {
-  float: left;
-  width: 20%;
-  padding: 22px;
-  background: #2196F3;
-  color: white;
-  font-size: 17px;
-  border: 1px solid grey;
-  border-left: none;
-  cursor: pointer;
-  max-width:60px;
-  float: right;
-}
-
-form.example button:hover {
-  background: #0b7dda;
-}
-
-form.example::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-/* The CSS code for the navigation bar. */
 *{
     margin: 0;
     padding: 0; 
@@ -53,6 +19,7 @@ form.example::after {
   header {
 	background-color: white;
 }
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -72,7 +39,6 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-
 
 li a:hover {
   background-color: lightblue;
@@ -149,7 +115,6 @@ li a:hover {
   
   .card:hover .middle{ opacity: 1;}
   
-
   @media (max-width:1280px){
     .container{ width: 95%;}
   }
@@ -158,95 +123,3 @@ li a:hover {
   
     .card:hover{ transform: scale(1);}
   }
-
-
-  /*search Button*//*
-  body {
-    font-family: Arial;
-    
-  }
-  
-  * {
-    box-sizing: border-box;
-  }
-  
-  .openBtn {
-    background: rgb(11, 119, 202);
-    border-color: rgb(11, 119, 202);
-    padding: 10px 15px;
-    font-size: 20px;
-    cursor: pointer;
-    float: right;
-  }
-  
-  .openBtn:hover {
-    background:lightblue;
-  }
-  
-  .overlay {
-    height: 100%;
-    width: 100%;
-    display: none;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: lightblue;
-
-  }
-  
-
-  .overlay-content {
-    position: relative;
-    top: 46%;
-    width: 80%;
-    text-align: center;
-    margin-top: 30px;
-    margin: auto;
-  }
-  
-   /* Close button */
-   .overlay .closebtn {
-    position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
-    cursor: pointer;
-    color: rgb(11, 119, 202);
-  }
-  
-  .overlay .closebtn:hover {
-    color: #ccc;
-  }
-  
-  /* Style the search field */
-  .overlay input[type=text] {
-    padding: 15px;
-    font-size: 17px;
-    border: none;
-    float: left;
-    width: 80%;
-    background: white;
-  }
-  
-  .overlay input[type=text]:hover {
-    background: #f1f1f1;
-  }
-  
-  /* Style the submit button */
-  .overlay button {
-    float: left;
-    width: 20%;
-    padding: 25px;
-    background: #ddd;
-    font-size: 17px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .overlay button:hover {
-    background: #bbb;
-  }
-
- 
-  
