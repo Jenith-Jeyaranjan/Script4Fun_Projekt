@@ -27,36 +27,27 @@
         name: "PixelArt",
         description: "Do you want to draw with Pixels?",
         popuptext: "Play PixelArt Now!",
-        thumbnail:"snake",
-        url: ""
     },
       {
           name: "Snake Game",
           description:"Do you want to play Snake Game?",
           popuptext: "Play Snakegame now!",
           thumbnail:"snake",
-          url: ""
         },
     {
         name: "Flappybird",
         description: "Do you want to play Flappybird?",
         popuptext: "Play Flappybird Now!",
-        thumbnail:"snake",
-        url: ""
     },
     {
         name: "Random Number",
         description: "Do you want to guess a random Number",
         popuptext: "Play Random Number Now!",
-        thumbnail:"snake",
-        url: ""
     },
     {
         name: "Spiel 4",
         description: "Do you want to play Spiel 4?",
         popuptext: "Play Spiel 4 Now!",
-        thumbnail:"snake",
-        url: ""
     },
    
 
@@ -67,7 +58,7 @@
 window.addEventListener('load', () => {
     const wrapper = document.querySelector(".container");
     games.forEach(game => {
-        const {name,description,thumbnail,popuptext, url} = game;
+        const {name,description,thumbnail = "snake",popuptext, url=""} = game;
 
        /* Creating a template literal. */
         const html = `
@@ -102,5 +93,19 @@ window.addEventListener('load', () => {
         wrapper.appendChild(card);
     })
 });
+
+/*Search Cards*/
+const searchCards = () => {
+    const search = document.getElementById("myInput").value;
+    const cards = document.querySelectorAll(".card");
+    cards.forEach((card) => {
+      const name = card.querySelector(".details h1").innerText;
+      if (name.toUpperCase().indexOf(search.toUpperCase()) > -1) {
+        card.style.display = "";
+      } else {
+        card.style.display = "none";
+      }
+    });
+  };
 
 
