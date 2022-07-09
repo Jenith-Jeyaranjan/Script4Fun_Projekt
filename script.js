@@ -21,7 +21,7 @@
         description: "Do you want to guess a color based on the rgb notation",
         popuptext: "Play Colorgame Now!",
         thumbnail:"snake",
-        url: ""
+        url: "https://jenith-jeyaranjan.github.io/colorgame/"
     },
     {
         name: "PixelArt",
