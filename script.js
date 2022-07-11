@@ -45,9 +45,10 @@
         popuptext: "Play Random Number Now!",
     },
     {
-        name: "Spiel 4",
+        name: "Memes Generator",
         description: "Do you want to play Spiel 4?",
         popuptext: "Play Spiel 4 Now!",
+        url: " https://jenith-jeyaranjan.github.io/memesgenerator/"
     },
    
 
